@@ -62,32 +62,3 @@ fetch('https://api.exchangerate.host/symbols')
     // Handle any errors that may occur
     console.error(error);
   });
-
-
-// // Get the from and to select elements
-// const fromSelect = document.querySelector('#from');
-// const toSelect = document.querySelector('#to');
-
-// // Make an API call to get the list of currencies
-// fetch('https://api.exchangerate.host/currencies')
-//   .then((response) => {
-//     // Convert the response to JSON
-//     return response.json();
-//   })
-//   .then((data) => {
-//     // Get the list of currency codes
-//     const currencies = data.currencies;
-//     // Create an option element for each currency code
-//     for (const code in currencies) {
-//       const option = document.createElement('option');
-//       option.value = code;
-//       option.textContent = currencies[code];
-//       // Add the option element to the from and to select elements
-//       fromSelect.appendChild(option.cloneNode(true));
-//       toSelect.appendChild(option.cloneNode(true));
-//     }
-//   })
-//   .catch((error) => {
-//     // Handle any errors that may occur
-//     console.error(error);
-//   });
