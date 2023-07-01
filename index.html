@@ -57,6 +57,13 @@
 	  </ul>
 	</div>
   </nav>
+<!--Dark Mode-->
+<div>
+<label class="toggle">
+    <input type="checkbox" id="themeToggle">
+    <span class="slider round"></span>
+  </label>
+</div>
 
  	<div class="cover">
     <h1 style="text-align: center;">Welcome to Alx Portfolio Project.</h1><hr>
@@ -100,6 +107,15 @@
 			})(document, window, 'BrevoConversations');
 		</script>
 <!-- /Brevo Conversations {/literal} -->
+<!-- Dark Mode Script -->
+		<script>
+			const toggle = document.getElementById('themeToggle');
+			const body = document.body;
+
+			toggle.addEventListener('change', function () {
+			body.classList.toggle('dark-mode');
+			});
+		</script>
 	</div>
 		</body>
 </html>
