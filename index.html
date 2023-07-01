@@ -1,27 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Currency Converter</title>
-  <link rel="stylesheet" href="./styles.css">
+    <title>Home</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/btn.css">
+	
 </head>
-
 <body>
-    <h1>Currency Converter</h1>
-    <form>
-      <label for="amount">Amount:</label><br>
-      <input type="text" id="amount" name="amount"><br>
-      <label for="from">From:</label><br>
-      <select id="from" name="from"></select><br>
-      <label for="to">To:</label><br>
-      <select id="to" name="to"></select><br><br>
-      <input type="submit" value="Convert">
-    
-      <div id="result">
-        <p>Converted Amount: <span id="convertedAmount"></span></p>
-      </div>
-    </form> 
+<nav class="menu-container">
+	<!-- burger menu -->
+	<input type="checkbox" aria-label="Toggle menu" />
+	<span></span>
+	<span></span>
+	<span></span>
   
-    <div class="copyright"> Simple Currency Converter By <span><a href="https://www.facebook.com/johnblesson.rowe">John Blesson-Rowe</a> </span></div>
-    <script src="./main.js"></script>
+	<!-- logo -->
+	<a href="index.html" class="menu-logo">
+	  <img class="home_logo" src="images/alx_logo.jpeg" alt="My Awesome Website"/>
+	</a>
+  
+	<!-- menu items -->
+	<div class="menu">
+	  <ul>
+		<li>
+		  <a href="index.html">
+			Home
+		  </a>
+		</li>
+		<li>
+		  <a href="project.html">
+			Project
+		  </a>
+		</li>
+		<li>
+		  <a href="about.html">
+			About
+		  </a>
+		</li>
+		<li>
+		  <a href="#docs">
+			Docs
+		  </a>
+		</li>
+	  </ul>
+	  <ul>
+		<li>
+		  <a href="https://intranet.alxswe.com/">
+			Sign-up
+		  </a>
+		</li>
+		<li>
+		  <a href="https://intranet.alxswe.com/">
+			Login
+		  </a>
+		</li>
+	  </ul>
+	</div>
+  </nav>
+
+ 	<div>
+    <h1>Welcome to my Alx Portfolio Project</h1>
+    <p>This project contain a simple Currency Converter</p>
+    <a href="project.html" class="myButton">Project</a>
+	</div>
+
 </body>
 </html>
