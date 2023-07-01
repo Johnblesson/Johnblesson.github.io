@@ -3,9 +3,24 @@
 <head>
   <title>Currency Converter</title>
   <link rel="stylesheet" href="css/styles.css">
-  
-</head>
 
+  <!--Script for the Time and Date-->
+  <script>
+    function updateTime() {
+      var date = new Date(); // Get the current date and time
+      var time = date.toLocaleTimeString(); // Format the time as per the user's locale
+      var formattedDate = date.toDateString(); // Format the date as per the user's locale
+
+      // Update the time and date in the HTML elements
+      document.getElementById("time").textContent = time;
+      document.getElementById("date").textContent = formattedDate;
+    }
+
+    // Update the time every second
+    setInterval(updateTime, 1000);
+  </script>
+
+</head>
 <body><br>
   <div><a href="index.html"><img src="images/alx_logo.jpeg" alt="alx logo"></a></div>
     <h1>Currency Converter</h1>
@@ -22,7 +37,13 @@
         <p>Converted Amount: <span id="convertedAmount"></span></p>
       </div>
     </form> 
-    <div class="copyright"> Simple Currency Converter By <span><a href="https://www.facebook.com/johnblesson.rowe">John Blesson-Rowe</a> </span></div>
+
+    <!--Active Time and Date Tag -->
+<div>
+    <p>Current Time: <span id="time"></span></p>
+    <p>Current Date: <span id="date"></span></p>
+</div>
+    <!--<div class="copyright"> Simple Currency Converter By <span><a href="https://www.facebook.com/johnblesson.rowe">John Blesson-Rowe</a> </span></div>-->
     <script src="js/main.js"></script>
 </body>
 </html>
