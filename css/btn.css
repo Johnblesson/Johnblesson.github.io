@@ -98,7 +98,6 @@
   footer{
 	text-align: center;
 	font-size: 12px;
-	height: -100px; /* Adjust the height of your footer as needed */
- 	position:unset;
+ 	position: absolute;
   	bottom: 0;	
 	}
