@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Trading Chart</title>
+</head>
+<body>
+    <div><a href="index.html"><img src="images/alx_logo.jpeg" alt="Screenshot"></a></div>
+    <!-- TradingView Widget BEGIN -->
+    <div>
+    <h1 style="text-align: center;">Cryptocurrency Market Widget</h1>
+    <p style="text-align: center;">This widget displays crypto assets and then sorts them by their market capitalization.</p>
+    <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+    {
+    "width": 1000,
+    "height": 490,
+    "defaultColumn": "overview",
+    "screener_type": "crypto_mkt",
+    "displayCurrency": "USD",
+    "colorTheme": "light",
+    "locale": "en"
+  }
+    </script>
+  </div>
+</div>
+  <!-- TradingView Widget END -->
+
+</body>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        main-height: 100vh;
+        width: 100%;
+        background: #fff;
+    }
+
+    img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            /**border: 2px solid #ffff;**/
+            padding: 2px;
+            position: absolute;
+            top: 0px;
+            left: 0;
+            overflow: hidden;
+            bottom: 0;
+            }
+</style>
+</html>
