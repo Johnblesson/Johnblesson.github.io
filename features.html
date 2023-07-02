@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="css/nav.css">
 
 		<!-- Brevo Conversations {literal} -->
 		<script>
@@ -23,18 +22,6 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap');
-        img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            /**border: 2px solid #ffff;**/
-            padding: 2px;
-            position: absolute;
-            top: 0px;
-            left: 0;
-            overflow: hidden;
-            bottom: 0;
-            }
 
             .container {
                 display: flex;
@@ -68,8 +55,58 @@
 
 </head>
 <body>
-    <div><a href="index.html"><img src="images/alx_logo.jpeg" alt="Screenshot"></a></div>
-   <br><br>
+
+    <nav class="menu-container">
+        <!-- burger menu -->
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
+      
+        <!-- logo -->
+        <a href="index.html" class="menu-logo">
+          <img class="home_logo" src="images/alx_logo.jpeg" alt="My Awesome Website"/>
+        </a>
+      
+        <!-- menu items -->
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="project.html">
+                Converter
+              </a>
+            </li>
+            <li>
+              <a href="sw.html">
+                Stopwatch
+              </a>
+            </li>
+            <li>
+              <a href="forex.html">
+                Forex
+              </a>
+            </li>
+            <li>
+              <a href="features.html">
+                Features
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="about.html">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="https://intranet.alxswe.com/">
+                Login
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
     <h1 style="text-align: center;">Welcome to our Currency Converter key features!</h1><hr><br><br>
 
 

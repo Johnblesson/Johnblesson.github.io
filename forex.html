@@ -4,31 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forex Trading Chart</title>
+    <link rel="stylesheet" href="css/nav.css">
 </head>
-<body>
-    <div><a href="index.html"><img src="images/alx_logo.jpeg" alt="Screenshot"></a></div>
-    <!-- TradingView Widget BEGIN -->
-    <div>
-    <h1 style="text-align: center;">Cryptocurrency Market Widget</h1>
-    <p style="text-align: center;">This widget displays crypto assets and then sorts them by their market capitalization.</p>
-    <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-    {
-    "width": 1000,
-    "height": 490,
-    "defaultColumn": "overview",
-    "screener_type": "crypto_mkt",
-    "displayCurrency": "USD",
-    "colorTheme": "light",
-    "locale": "en"
-  }
-    </script>
-  </div>
-</div>
-  <!-- TradingView Widget END -->
+<body style="min-height: calc(100% - 50px); /* Adjust the value according to your footer height */">
+    <nav class="menu-container">
+      <!-- burger menu -->
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+    
+      <!-- logo -->
+      <a href="index.html" class="menu-logo">
+        <img class="home_logo" src="images/alx_logo.jpeg" alt="My Awesome Website"/>
+      </a>
+    
+      <!-- menu items -->
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="project.html">
+              Converter
+            </a>
+          </li>
+          <li>
+            <a href="sw.html">
+              Stopwatch
+            </a>
+          </li>
+          <li>
+            <a href="forex.html">
+              Forex
+            </a>
+          </li>
+          <li>
+            <a href="features.html">
+              Features
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="about.html">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="https://intranet.alxswe.com/">
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+      <div>
+        <!-- TradingView Widget BEGIN -->
+        <h1 style="text-align: center;">Cryptocurrency Market Widget</h1>
+        <p style="text-align: center;">This widget displays crypto assets and then sorts them by their market capitalization.</p>
+        <div class="tradingview-widget-container">
+          <div class="tradingview-widget-container__widget"></div>
+          <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+          {
+            "width": 1000,
+            "height": 490,
+            "defaultColumn": "overview",
+            "screener_type": "crypto_mkt",
+            "displayCurrency": "USD",
+            "colorTheme": "light",
+            "locale": "en"
+          }
+          </script>
+        </div>
+        <!-- TradingView Widget END -->
+      </div>
+    </div>
+      
 
+    </div>
+  </div>
+  
   <!-- Brevo Conversations {literal} -->
   <script>
     (function(d, w, c) {
@@ -44,27 +101,4 @@
   </script>
 
 </body>
-<style>
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        main-height: 100vh;
-        width: 100%;
-        background: #fff;
-    }
-
-    img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            /**border: 2px solid #ffff;**/
-            padding: 2px;
-            position: absolute;
-            top: 0px;
-            left: 0;
-            overflow: hidden;
-            bottom: 0;
-            }
-</style>
 </html>

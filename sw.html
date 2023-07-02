@@ -6,10 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
     <link rel="stylesheet" href="css/sw.css">
-    
+    <link rel="stylesheet" href="css/nav.css">
 </head>
-<body>
-    
+<body style="min-height: calc(100% - 50px); /* Adjust the value according to your footer height */">
+
+    <nav class="menu-container">
+        <!-- burger menu -->
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
+      
+        <!-- logo -->
+        <a href="index.html" class="menu-logo">
+          <img class="home_logo" src="images/alx_logo.jpeg" alt="My Awesome Website"/>
+        </a>
+      
+        <!-- menu items -->
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="project.html">
+                Converter
+              </a>
+            </li>
+            <li>
+              <a href="sw.html">
+                Stopwatch
+              </a>
+            </li>
+            <li>
+              <a href="forex.html">
+                Forex
+              </a>
+            </li>
+            <li>
+              <a href="features.html">
+                Features
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="about.html">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="https://intranet.alxswe.com/">
+                Login
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+     
+    <!--Stopwatch Tags-->
     <div class="container">
         <div class="wrapper">  
             <p>
@@ -23,7 +75,6 @@
         </div>
     </div>
 
-    <div><a href="index.html"><img src="images/alx_logo.jpeg" alt="alx logo"></a></div>
         <script src="js/sw.js"></script>
 
         <!-- Brevo Conversations {literal} -->
