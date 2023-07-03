@@ -177,3 +177,7 @@ body {
       padding: 0 20px;
     }
   }
+
+  .tradingview-widget-copyright{
+    display: none;
+  }
