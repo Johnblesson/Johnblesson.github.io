@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 20vh; /* Adjust the height as needed */
+	height: 70vh; /* Adjust the height as needed */
   }
   
   .myButton {
@@ -100,6 +100,31 @@
 	text-align: center;
 	font-size: 12px;
  	position: absolute;
-  	bottom: 0;
 	left: 2%;
 	}
+
+/** ===========</video>============ **/
+	.video_icon_1{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		top: 57%;
+		left: 50%;
+		bottom: 30%;
+		transform: translate(-50%, -50%);
+		transition: transform 0.3s ease, opacity 0.3s ease;
+	  }
+
+	  .video_icon_1:hover {
+		transform: rotate(10deg);
+		opacity: 0.5;
+	  }
+		.video_head{
+		  position: absolute;
+		top: 44%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		color: ;
+		}
+/** ===========</video>============ **/
