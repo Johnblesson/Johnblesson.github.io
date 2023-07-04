@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70vh; /* Adjust the height as needed */
+	height: 70vh; /*Adjust the height as needed */
   }
   
   .myButton {
@@ -16,7 +16,7 @@
 	font-size: 17px;
 	padding: 16px 31px;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #2f6627;
+	/**text-shadow: 0px 1px 0px #2f6627;**/
   }
   .myButton:hover {
 	background-color: #2196F3;
@@ -101,6 +101,7 @@
 	font-size: 12px;
  	position: absolute;
 	left: 2%;
+	
 	}
 
 /** ===========</video>============ **/
@@ -108,7 +109,7 @@
 		width: 100px;
 		height: 100px;
 		position: absolute;
-		top: 57%;
+		/**top: 50%;**/
 		left: 50%;
 		bottom: 30%;
 		transform: translate(-50%, -50%);
