@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stopwatch</title>
-    <link rel="stylesheet" href="css/sw.css" />
+    <title>Forex Trading Chart</title>
     <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="main.css">
 
     <style>
       /** <Contact Us> **/
@@ -16,7 +15,7 @@
         border: 1px solid #818181;
         display: inline-block;
         cursor: pointer;
-        color: #ffff;
+        color: #ffffff;
         font-family: Arial;
         font-size: 12px;
         padding: 9px 18px;
@@ -92,37 +91,30 @@
         </ul>
       </div>
     </nav>
-
-    <!--Stopwatch Tags-->
-    <div class="container">
-      <div class="wrapper">
-        <p>
-          <span class="minutes">00 </span>: <span class="seconds">00 </span>:
-          <span class="tens">00</span>
-        </p>
-        <br />
-        <button class="btn-start">Start</button>
-        <button class="btn-stop">Stop</button>
-        <button class="btn-reset">Reset</button>
-      </div>
+            <h2 id="welcome">Welcome to Guess</h2>
+            <h5>Playing with numbers is fun, Wannah try? hit the start button</h5>
+            <div class="text-muted"><form action="#" id="toggle"><button  onclick="help('helped')">Need help?</button></form>
+                <div id="helped" class="erros"></div>
+            </div>
+            <span id="timer"></span>
+    
+        <h4>This is not a guess game as you suppose, enter four numbers</h4>
+        <a href="#" onclick="start()" style="text-decoration: none;">Start</a>
+    <div id="container">
+    <form action="#" >
+        <input type="number" id="numbera" onkeyup="cleanUp(this)" maxlength="1" class="input-darke" autofocus>
+        <input type="number" id="numberb" onkeyup="cleanUp(this)"  maxlength="1" class="input-darke">
+        <input type="number" id="numberc" onkeyup="cleanUp(this)"  maxlength="1" class="input-darke">
+        <input type="number" id="numberd" onkeyup="cleanUp(this)"  maxlength="1" class="input-darke">
+        <button onclick="guess('crossCheck');"  class="delete-post-button">Check</button>
+    </form>
     </div>
-
-    <script src="js/sw.js"></script>
-
-    <!-- Brevo Conversations {literal} -->
-    <script>
-      (function (d, w, c) {
-        w.BrevoConversationsID = "64a07490587f7c570c0325db";
-        w[c] =
-          w[c] ||
-          function () {
-            (w[c].q = w[c].q || []).push(arguments);
-          };
-        var s = d.createElement("script");
-        s.async = true;
-        s.src = "https://conversations-widget.brevo.com/brevo-conversations.js";
-        if (d.head) d.head.appendChild(s);
-      })(document, window, "BrevoConversations");
-    </script>
+    <span id="crossCheck"></span>
+    
+    </body>
+    </html>
+    <script type="text/javascript"></script>
+    <script src="main.js"></script>
+    
   </body>
 </html>

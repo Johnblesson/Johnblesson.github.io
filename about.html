@@ -1,201 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>About</title>
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Brevo Conversations {literal} -->
-		<script>
-			(function(d, w, c) {
-				w.BrevoConversationsID = '64a07490587f7c570c0325db';
-				w[c] = w[c] || function() {
-					(w[c].q = w[c].q || []).push(arguments);
-				};
-				var s = d.createElement('script');
-				s.async = true;
-				s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
-				if (d.head) d.head.appendChild(s);
-			})(document, window, 'BrevoConversations');
-		</script>
-		<!-- /Brevo Conversations {/literal} -->
-    
-<style> 
-      /* Style the Sticky icons on web page */ 
-      .stickyicon-list { 
-      position: absolute; 
-      bottom: 0;
-      transform: translateY(-50%);  
-      left: 42%;
-      }       
-      .stickyicon-list a { 
-      display: inline-block; 
-      text-align: center; 
-      padding: 8px; 
-      transition: all 0.5s ease; 
-      color: white; 
-      font-size: 20px;
-      position: static;
-      border-radius: 2px; 
-      }       
-      /* Hover affect on sticky social media icons */ 
-      .stickyicon-list a:hover { 
-      color: #000; 
-      width:10px; 
-      } 
-       
-      /* Now we have to design each icon of social media */       
-      .facebook { 
-      background: #3b5998; 
-      color: white;
-      }       
-      .twitter { 
-      color: white; 
-      background: #00acee; 
-      } 
-      .linkedin { 
-      background: #0e76a8; 
-      color: white; 
-      }       
-      .github { 
-      color: white; 
-      background: #131313; 
-      } 
-      .instagram { 
-      background: #3f729b; 
-      color: white; 
-      }       
-      .youtube { 
-      color: white; 
-      background: #f60808;  
-      } 
+    <script>
+      (function (d, w, c) {
+        w.BrevoConversationsID = "64a07490587f7c570c0325db";
+        w[c] =
+          w[c] ||
+          function () {
+            (w[c].q = w[c].q || []).push(arguments);
+          };
+        var s = d.createElement("script");
+        s.async = true;
+        s.src = "https://conversations-widget.brevo.com/brevo-conversations.js";
+        if (d.head) d.head.appendChild(s);
+      })(document, window, "BrevoConversations");
+    </script>
+    <!-- /Brevo Conversations {/literal} -->
 
-      footer{
-	    text-align: center;
-	    font-size: 12px;
- 	    position: absolute;
-  	  bottom: 0;
-      left: 2%;
-	    }
-      
+    <style>
+      /* Style the Sticky icons on web page */
+      .stickyicon-list {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(-50%);
+        left: 42%;
+      }
+      .stickyicon-list a {
+        display: inline-block;
+        text-align: center;
+        padding: 8px;
+        transition: all 0.5s ease;
+        color: white;
+        font-size: 20px;
+        position: static;
+        border-radius: 2px;
+      }
+      /* Hover affect on sticky social media icons */
+      .stickyicon-list a:hover {
+        color: #000;
+        width: 10px;
+      }
+
+      /* Now we have to design each icon of social media */
+      .facebook {
+        background: #3b5998;
+        color: white;
+      }
+      .twitter {
+        color: white;
+        background: #00acee;
+      }
+      .linkedin {
+        background: #0e76a8;
+        color: white;
+      }
+      .github {
+        color: white;
+        background: #131313;
+      }
+      .instagram {
+        background: #3f729b;
+        color: white;
+      }
+      .youtube {
+        color: white;
+        background: #f60808;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+        position: absolute;
+        bottom: 0;
+        left: 2%;
+      }
+
       /** <Contact Us> **/
       .myButton {
-      background-color: #232323;
-      border-radius: 28px;
-      border: 1px solid #818181;
-      display: inline-block;
-      cursor: pointer;
-      color: #ffffff;
-      font-family: Arial;
-      font-size: 12px;
-      padding: 9px 18px;
-      text-decoration: none;
-      /**text-shadow: 0px 1px 0px #2f6627;**/
+        background-color: #232323;
+        border-radius: 28px;
+        border: 1px solid #818181;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 12px;
+        padding: 9px 18px;
+        text-decoration: none;
+        /**text-shadow: 0px 1px 0px #2f6627;**/
       }
       /** .myButton:hover {
       background-color: #2196F3;
       }**/
       .myButton:active {
-      position: relative;
-      top: 0%;
+        position: relative;
+        top: 0%;
       }
-    /** </Contact Us> **/
-      </style> 
+      /** </Contact Us> **/
+    </style>
+  </head>
+  <body
+    style="
+      min-height: calc(
+        100% - 50px
+      ); /* Adjust the value according to your footer height */
+    "
+  >
+    <nav class="menu-container">
+      <!-- burger menu -->
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
 
-</head>
-    <body style="min-height: calc(100% - 50px); /* Adjust the value according to your footer height */">
-        <nav class="menu-container">
-            <!-- burger menu -->
-            <input type="checkbox" aria-label="Toggle menu" />
-            <span></span>
-            <span></span>
-            <span></span>
-          
-            <!-- logo -->
-            <a href="index.html" class="menu-logo">
-              <img class="home_logo" src="images/alx_logo.jpeg" alt="My Awesome Website"/>
-            </a>
-          
-            <!-- menu items -->
-            <div class="menu">
-              <ul>
-                <li>
-                  <a href="project.html">
-                    Converter
-                  </a>
-                </li>
-                <li>
-                  <a href="sw.html">
-                    Stopwatch
-                  </a>
-                </li>
-                <li>
-                  <a href="forex.html">
-                    Forex
-                  </a>
-                </li>
-                <li>
-                  <a href="features.html">
-                    Features
-                  </a>
-                </li>
-              </ul>
+      <!-- logo -->
+      <a href="index.html" class="menu-logo">
+        <img
+          class="home_logo"
+          src="images/alx_logo.jpeg"
+          alt="My Awesome Website"
+        />
+      </a>
 
-              <ul>
-                <li>
-              <a href="cont.html" class="myButton">
-                Contact Us
-              </a>
-              </li>
-              </ul>
+      <!-- menu items -->
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="project.html"> Converter </a>
+          </li>
+          <li>
+            <a href="sw.html"> Stopwatch </a>
+          </li>
+          <li>
+            <a href="forex.html"> Forex </a>
+          </li>
+          <li>
+            <a href="features.html"> Features </a>
+          </li>
+          <li>
+            <a href="guess.html"> Play </a>
+          </li>
+        </ul>
 
-              <ul>
-                <li>
-                  <a href="about.html">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="https://intranet.alxswe.com/">
-                    Login
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+        <ul>
+          <li>
+            <a href="cont.html" class="myButton"> Contact Us </a>
+          </li>
+        </ul>
 
-           <section>
-            <p style="text-align: center;"> 
-              It has always been a burden and passion to build a financial service web application, and starting with this project is a good start.<br> 
-              This project contains three significant features. It contain a simple currency converter and the exchange rate API was generated<br> 
-              by <a href="https://exchangerate.host/">exchangerate.host</a>; and the second feature is a friendly user stopwatch to keep track of activities, and there is a live<br> 
-              time and date running in the site; the final feature is the cryptocurrencies market widget with live update on your favorite cryptocurrency,<br>  
-              and the API was from TradingView. If you want to chat with us, there is a live chat session on the right bottom of the application.<br> 
-            </p>
-          </section>
+        <ul>
+          <li>
+            <a href="about.html"> About </a>
+          </li>
+          <li>
+            <a href="https://intranet.alxswe.com/"> Login </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-          <section>
-            <div class="stickyicon-list">
-            <a href="https://www.facebook.com/johnblesson.rowe" class="facebook"> 
-            <i class="fa fa-facebook"></i> 
-            </a> 
-            <a href="https://twitter.com/BlessonRowe" class="twitter"> 
-            <i class="fa fa-twitter"></i> 
-            </a>     
-            <a href="https://www.linkedin.com/in/john-blesson-rowe-59a935240" class="linkedin"> 
-            <i class="fa fa-linkedin"></i> 
-            </a> 
-            <a href="https://github.com/Johnblesson" class="github"> 
-            <i class="fa fa-google"></i> 
-            </a>   
-            <a href="https://instagram.com/iamjohnblessonrowe" class="instagram"> 
-            <i class="fa fa-instagram"></i> 
-            </a>                            
-            <a href="https://www.youtube.com/channel/UC-1V51i9y7MU9Ldc015S74w" class="youtube"> 
-            <i class="fa fa-youtube"></i> 
-            </a> 
-            </div>
-            </section>
+    <section>
+      <p style="text-align: center">
+        It has always been a burden and passion to build a financial service web
+        application, and starting with this project is a good start.<br />
+        This project contains three significant features. It contain a simple
+        currency converter and the exchange rate API was generated<br />
+        by <a href="https://exchangerate.host/">exchangerate.host</a>; and the
+        second feature is a friendly user stopwatch to keep track of activities,
+        and there is a live<br />
+        time and date running in the site; the final feature is the
+        cryptocurrencies market widget with live update on your favorite
+        cryptocurrency,<br />
+        and the API was from TradingView. If you want to chat with us, there is
+        a live chat session on the right bottom of the application.<br />
+      </p>
+    </section>
 
-</body>
+    <section>
+      <div class="stickyicon-list">
+        <a href="https://www.facebook.com/johnblesson.rowe" class="facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/BlessonRowe" class="twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/john-blesson-rowe-59a935240"
+          class="linkedin"
+        >
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Johnblesson" class="github">
+          <i class="fa fa-google"></i>
+        </a>
+        <a href="https://instagram.com/iamjohnblessonrowe" class="instagram">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UC-1V51i9y7MU9Ldc015S74w"
+          class="youtube"
+        >
+          <i class="fa fa-youtube"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
