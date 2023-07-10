@@ -104,7 +104,7 @@
 	
 	}
 
-/** ===========</video>============ **/
+/** </video> **/
 	.video_icon_1{
 		width: 100px;
 		height: 100px;
@@ -116,10 +116,10 @@
 		transition: transform 0.3s ease, opacity 0.3s ease;
 	  }
 
-	  .video_icon_1:hover {
+	/**  .video_icon_1:hover {
 		transform: rotate(10deg);
 		opacity: 0.5;
-	  }
+	  }**/
 		.video_head{
 		position: absolute;
 		top: 44%;
@@ -128,4 +128,4 @@
 		text-align: center;
 		color: ;
 		}
-/** ===========</video>============ **/
+/** </video> **/
