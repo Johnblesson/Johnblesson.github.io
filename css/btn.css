@@ -120,6 +120,7 @@
 		transform: rotate(10deg);
 		opacity: 0.5;
 	  }**/
+	  
 		.video_head{
 		position: absolute;
 		top: 44%;
@@ -128,4 +129,4 @@
 		text-align: center;
 		color: ;
 		}
-/** </video> **/
+     /** </video> **/
