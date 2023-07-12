@@ -2,11 +2,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 55vh; /*Adjust the height as needed */
+	height: 70vh; /*Adjust the height as needed */
 	flex-wrap: wrap;
   }
   
-  .myButton {
+  .myButton{
 	background-color: #232323;
 	border-radius: 28px;
 	border: 1px solid #818181;
@@ -112,7 +112,7 @@
 		position: absolute;
 		/**top: 50%;**/
 		left: 50%;
-		bottom: 30%;
+		bottom: 28%;
 		transform: translate(-50%, -50%);
 		transition: transform 0.3s ease, opacity 0.3s ease;
 	  }
