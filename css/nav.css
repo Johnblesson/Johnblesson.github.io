@@ -42,6 +42,7 @@ body {
   
   .menu-container a:hover {
     color: #00C6A7;
+   /** border-bottom: 2px #fff solid;**/
   }
   
   .menu-container input {
